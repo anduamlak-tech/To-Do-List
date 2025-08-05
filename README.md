@@ -1,3 +1,12 @@
+<!-- filepath: /home/andy/Music/To-Do-List/website/my-react-app/README.md -->
+# To-Do-List React App
+
+![App Screenshot](public/screenshot.png)
+
+A simple and interactive To-Do List application built with React and Vite.
+// ...existing code...
+
+
 # To-Do-List React App
 
 A simple and interactive To-Do List application built with React and Vite.
