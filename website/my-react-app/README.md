@@ -22,3 +22,14 @@ Currently, two official plugins are available:
    ```
 
 3. Open your browser and go to the URL shown in the terminal (usually [http://localhost:5173](http://localhost:5173)).
+
+## Deploying to Render.com
+
+1. Push your code to a GitHub repository.
+2. Create a new **Web Service** on [Render.com](https://render.com/).
+3. Connect your repository.
+4. Set the following in the Render service settings:
+   - **Build Command:** `npm run build`
+   - **Start Command:** `npm run preview`
+5. (Optional) If deploying to a subpath, set the `base` option in `vite.config.js`.
+6. Render will automatically set the `PORT` environment variable.
