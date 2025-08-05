@@ -7,5 +7,8 @@ export default defineConfig({
   preview: {
     port: process.env.PORT ? parseInt(process.env.PORT) : 5173,
     host: true,
+    allowedHosts: [
+      'to-do-list-ig90.onrender.com'
+    ],
   },
 })
