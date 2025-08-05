@@ -1,7 +1,7 @@
 <!-- filepath: /home/andy/Music/To-Do-List/website/my-react-app/README.md -->
 # To-Do-List React App
 
-![App Screenshot](public/screenshot.png)
+![App Screenshot](website/my-react-app/public/screenshot.png)
 
 
 # To-Do-List React App
